@@ -35,5 +35,7 @@ git branch -D feature-vulcan
 git remote
 git remote -v
 git push origin master
-git push origin dev
-
+git push origin dev 推送远程不存在的分支时会创建对应的远程分支
+git checkout -b dev origin/dev 从远程创建分支
+git branch --set-upstream-to=origin/dev dev 绑定本地分支与远程分支
+git pull
