@@ -32,3 +32,8 @@ git stash apply stash@{0}
 git stash drop stash@{0}
 git stash pop
 git branch -D feature-vulcan
+git remote
+git remote -v
+git push origin master
+git push origin dev
+
