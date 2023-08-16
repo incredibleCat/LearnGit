@@ -39,3 +39,4 @@ git push origin dev 推送远程不存在的分支时会创建对应的远程分
 git checkout -b dev origin/dev 从远程创建分支
 git branch --set-upstream-to=origin/dev dev 绑定本地分支与远程分支
 git pull
+git check-ignore -v Table.unitypackage
